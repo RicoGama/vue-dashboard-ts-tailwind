@@ -1,5 +1,58 @@
-# Vue 3 + TypeScript + Vite
+# 🖥️ Dashboard Vue 3 + TypeScript
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um dashboard moderno desenvolvido com [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/) e [DaisyUI](https://daisyui.com/). O projeto foi criado para ser leve, rápido e altamente personalizável.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🚀 Tecnologias
+
+- ⚙️ [Vue 3](https://vuejs.org/) - Framework JavaScript progressivo
+- 🛠️ [Vite](https://vitejs.dev/) - Empacotador ultrarrápido de módulos
+- 📘 [TypeScript](https://www.typescriptlang.org/) - Superconjunto de JavaScript tipado
+- 💨 [Tailwind CSS](https://tailwindcss.com/) - Framework utilitário para estilos
+- 🎨 [DaisyUI](https://daisyui.com/) - Componentes estilizados para Tailwind CSS
+
+---
+
+## 🧱 Estrutura do Projeto
+
+```bash
+.
+├── public/              # Arquivos estáticos
+├── src/
+│   ├── assets/          # Imagens e arquivos de estilo
+│   ├── components/      # Componentes Vue reutilizáveis
+│   ├── layout/          # Layouts como Navbar e Sidebar
+│   ├── views/           # Telas principais do dashboard
+│   ├── App.vue          # Componente raiz
+│   └── main.ts          # Arquivo principal de inicialização
+├── tailwind.config.js   # Configuração do Tailwind
+├── vite.config.ts       # Configuração do Vite
+└── package.json         # Gerenciador de dependências e scripts
+
+## 🛠️ Scripts Disponíveis
+
+| Comando              | Descrição                        |
+|----------------------|----------------------------------|
+| `npm run dev`        | Inicia o servidor de desenvolvimento |
+| `npm run build`      | Gera os arquivos para produção   |
+| `npm run preview`    | Pré-visualiza a versão de produção |
+| `npm run lint`       | Roda o linting do código (opcional) |
+
+## 🌗 Tema Claro e Escuro
+O dashboard possui suporte nativo a temas claro e escuro com persistência via localStorage. A alteração pode ser feita via botão no layout.
+
+## 📦 Instalação
+
+```bash
+git clone https://github.com/seu-usuario/dashboard-vue.git
+cd dashboard-vue
+npm install
+npm run dev
+
+## 📸 Preview
+Em breve
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](LICENSE). Veja o arquivo LICENSE para mais detalhes.
