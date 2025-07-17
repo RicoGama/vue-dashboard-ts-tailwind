@@ -15,8 +15,6 @@ Este é um dashboard moderno desenvolvido com [Vue 3](https://vuejs.org/), [Vite
 ---
 
 ## 🧱 Estrutura do Projeto
-
-```bash
 .
 ├── public/              # Arquivos estáticos
 ├── src/
@@ -49,7 +47,7 @@ git clone https://github.com/seu-usuario/dashboard-vue.git
 cd dashboard-vue
 npm install
 npm run dev
-
+```
 ## 📸 Preview
 Em breve
 
