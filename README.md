@@ -15,6 +15,8 @@ Este é um dashboard moderno desenvolvido com [Vue 3](https://vuejs.org/), [Vite
 ---
 
 ## 🧱 Estrutura do Projeto
+
+```bash
 .
 ├── public/              # Arquivos estáticos
 ├── src/
@@ -27,6 +29,7 @@ Este é um dashboard moderno desenvolvido com [Vue 3](https://vuejs.org/), [Vite
 ├── tailwind.config.js   # Configuração do Tailwind
 ├── vite.config.ts       # Configuração do Vite
 └── package.json         # Gerenciador de dependências e scripts
+```
 
 ## 🛠️ Scripts Disponíveis
 
