@@ -8,4 +8,8 @@ export default defineConfig({
     vue(),
     tailwindcss()
   ],
+  server: {
+    port: 6240,
+    host: 'dashboard-vue.localhost'
+  },
 })
